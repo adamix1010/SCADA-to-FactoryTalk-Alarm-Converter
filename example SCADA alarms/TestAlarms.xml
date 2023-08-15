@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlarmCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Alarm Name="Sensor01_DeviceFault" ConditionType="TRIP" Input="Sensor01.DeviceFault" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="900" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AI_ALM_DeviceFault(owner:UDT_EL_GM_AI_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Sensor01_LoLo" ConditionType="TRIP" Input="Sensor01.LoLo" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="900" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AI_ALM_LoLo(owner:UDT_EL_GM_AI_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Sensor01_HiHi" ConditionType="TRIP" Input="Sensor01.HiHi" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="900" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AI_ALM_HiHi(owner:UDT_EL_GM_AI_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Sensor02_Lo" ConditionType="TRIP" Input="Sensor02.Lo" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="600" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AI_WRN_Lo(owner:UDT_EL_GM_AI_WRN)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Sensor02_Hi" ConditionType="TRIP" Input="Sensor02.Hi" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="600" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AI_WRN_Hi(owner:UDT_EL_GM_AI_WRN)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_DeviceFault" ConditionType="TRIP" Input="Motor01.DeviceFault" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="900" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_ALM_DeviceFault(owner:UDT_EL_GM_AM2D_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_LoadRotation" ConditionType="TRIP" Input="Motor01.LoadRotation" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="900" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_ALM_LoadRotation(owner:UDT_EL_GM_AM2D_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_RunFwd" ConditionType="TRIP" Input="Motor01.RunFwd" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="500" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_ALM_RunFwd(owner:UDT_EL_GM_AM2D_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_RunRev" ConditionType="TRIP" Input="Motor01.RunRev" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="500" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_ALM_RunRev(owner:UDT_EL_GM_AM2D_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_StopFwd" ConditionType="TRIP" Input="Motor01.StopFwd" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="900" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_ALM_StopFwd(owner:UDT_EL_GM_AM2D_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_StopRev" ConditionType="TRIP" Input="Motor01.StopRev" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="90" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_ALM_StopRev(owner:UDT_EL_GM_AM2D_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_Isolator" ConditionType="TRIP" Input="Motor01.Isolator" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="900" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_ALM_Isolator(owner:UDT_EL_GM_AM2D_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_Overload" ConditionType="TRIP" Input="Motor01.Overload" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="900" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_ALM_Overload(owner:UDT_EL_GM_AM2D_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_SpdDev" ConditionType="TRIP" Input="Motor01.SpdDev" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="900" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_ALM_SpdDev(owner:UDT_EL_GM_AM2D_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_CommLoss" ConditionType="TRIP" Input="Motor01.CommLoss" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="900" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_ALM_CommLoss(owner:UDT_EL_GM_AM2D_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_DriveNotReady" ConditionType="TRIP" Input="Motor01.DriveNotReady" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="900" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_ALM_DriveNotReady(owner:UDT_EL_GM_AM2D_ALM)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_LoadRotation" ConditionType="TRIP" Input="Motor01.LoadRotation" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="600" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_WRN_LoadRotation(owner:UDT_EL_GM_AM2D_WRN)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+  <Alarm Name="Motor01_SpdDev" ConditionType="TRIP" Input="Motor01.SpdDev" Expression="= 1" Limit="0" TargetTag="" OnDelay="0" OffDelay="0" Deadband="0" Severity="600" AssocTag1="" AssocTag2="" AssocTag3="" AssocTag4="" ShelveDuration="0" MaxShelveDuration="0" EvaluationPeriod="500" Latched="False" AckRequired="True" AlarmSetRollupIncluded="True" AlarmSetOperIncluded="True" Lang="en-US" Use="True" AlarmDefinition="UDT_EL_GM_AM2D_WRN_SpdDev(owner:UDT_EL_GM_AM2D_WRN)">
+    <Message><![CDATA[]]></Message>
+    <AlarmClass><![CDATA[]]></AlarmClass>
+    <HMIGroup><![CDATA[]]></HMIGroup>
+    <HMICmd><![CDATA[]]></HMICmd>
+  </Alarm>
+</AlarmCollection>

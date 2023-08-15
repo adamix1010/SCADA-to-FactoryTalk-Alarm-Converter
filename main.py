@@ -2,24 +2,28 @@ import PySimpleGUI as sg
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
 
-
+# UI
 sg.theme('DarkAmber')
 layout = [[sg.Text('File to be converted:')],
-          [sg.In(), sg.FileBrowse(file_types=(("XML", "*.xml"),))],
+          [sg.In(key='file'), sg.FileBrowse(file_types=(("XML", "*.xml"),))],
+          [sg.Text('Product ver.'), sg.InputText(key='product', size=(40, 1),
+                                                 default_text='E44CB020-C21D-11D3-8A3F-0010A4EF3494')],
           [sg.Button('Ok'), sg.Button('Cancel')]]
 
 window = sg.Window('SCADA to AB HMI alarm converter', layout)
+
+# Window loop
 while True:
     event, values = window.read()
     if event == sg.WIN_CLOSED or event == 'Cancel':
         break
     if event == sg.WIN_CLOSED or event == 'Ok':
-        print('You entered ', values[0])
-        tree = ET.parse(values[0])
+        print('You entered ', values['file'])
+        tree = ET.parse(str(values['file']))
         root = tree.getroot()
 
         # Root for converted file
-        newRoot = ET.Element("alarms", version="1.0", product="{E44CB020-C21D-11D3-8A3F-0010A4EF3494}", id="Alarms")
+        newRoot = ET.Element("alarms", version="1.0", product=f"{{{str(values['product'])}}}", id="Alarms")
 
         # Alarm element
         alarm = ET.SubElement(newRoot, "alarm", history_size="128", capacity_high_warning="90",
